@@ -1,0 +1,53 @@
+.weatherContainer{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./assets/white-cloud-sky-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.weatherContainer .weatherWrapper{
+  width: 80%;
+  min-height: 85vh;
+  background-color: rgba(0, 119, 182, 0.4);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.weatherContainer .weatherWrapper .weatherLeftContainer {
+  flex-grow: 1;
+}
+
+.weatherContainer .weatherWrapper .weatherRightContainer {
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+@media (max-width:768px) {
+
+  .weatherContainer .weatherWrapper{
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .weatherContainer .weatherWrapper{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .weatherContainer .weatherWrapper{
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .weatherContainer .weatherWrapper{
+    flex-direction: column;
+  }
+}
