@@ -19,7 +19,7 @@ Users can search for any location with **autocomplete support** to get real-time
 
 ## 🌤️ Preview
 ### Real-Tiime Weather Site Page
-![App Screenshot](public/Weather App.png)
+![App Screenshot](public/WeatherApp.png)
 
 ## 🔧 Setup & Run Locally
 
