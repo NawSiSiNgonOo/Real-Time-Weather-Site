@@ -25,7 +25,7 @@ Users can search for any location with **autocomplete support** to get real-time
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone repo-link
    cd weather-app
    npm install
 
